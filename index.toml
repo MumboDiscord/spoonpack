@@ -38,7 +38,7 @@ hash = "2bad1ed8e115d08e2669c9d8830d5d7986217df66ca2eb2ba714c234fd43b194"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "1475e977797dd62e76c590695ac7fffef03f4acfcef65f08375123ba11a99029"
+hash = "847d59c3363e8a202210e0739f8e84e9e6ef940e0ef6d6560826dd5f977d11bd"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
@@ -147,6 +147,10 @@ hash = "b9365f43b04d38c85179a2d661ea2342883432ad40ba09daf159da6cb564ca4b"
 [[files]]
 file = "config/ftbquests/quests/chapters/bounty_board.snbt"
 hash = "fb916cfdfd9903f27b347b5c88bf2771895e24c428ac6c325e7a03111f7d0161"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/cataclysm.snbt"
+hash = "e4d8e25c6d840f2f116f781f3620fc550537c9af7ec6d585d5133676c99222b8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/confectionary.snbt"
@@ -942,6 +946,16 @@ hash = "67efb201c75f6b864cfaaaf5815bb74ade6f348911906d5ca2868801fcfaf5d4"
 metafile = true
 
 [[files]]
+file = "mods/friends-and-foes-flowery-mooblooms-forge.pw.toml"
+hash = "cdca69b8fd167110b244e26b774a1f8e30e6bee1043c7e704ebdeb63b702eaa2"
+metafile = true
+
+[[files]]
+file = "mods/friends-and-foes-forge.pw.toml"
+hash = "1729d91efa70736b39cbfeab44c4c13141a6e3269a0aa21f32234bbc6aca8c8b"
+metafile = true
+
+[[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
 hash = "21f9927a40008dc6755ef70817ebd19196b9b4ec29713950fe5a027876818692"
 metafile = true
@@ -1137,6 +1151,11 @@ hash = "bbba6ac677c4e82b397501e4db188fadcafc4dacff02b835e4b8a44ffcc9a3c7"
 metafile = true
 
 [[files]]
+file = "mods/lendercataclysm.pw.toml"
+hash = "c5e13483aebcf2486938eec6dbfb7b4e9464d396b96bcb3abf1b1f2f0090dfd6"
+metafile = true
+
+[[files]]
 file = "mods/libipn.pw.toml"
 hash = "ee79f551b7aede4b923fc6df137c4ebbb1dd21eb80a3aaba6da8be93ac5010e7"
 metafile = true
@@ -1234,6 +1253,11 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "464e83a35e22e9bbdf7be38cf7a7a98c39462a0a50b01d2a1355bcae9167ea7a"
+metafile = true
+
+[[files]]
+file = "mods/nightlights.pw.toml"
+hash = "c122ed4347bbb82b881ca977d697a46973068911f169346392716d7734c4ad0a"
 metafile = true
 
 [[files]]
