@@ -1,0 +1,13 @@
+name = "Mekanism: Ad Astra Ores"
+filename = "mekanism-ad-astra-ores-0.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fcb5fc519c62901529b1ed24222c86bb45d4b7b6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4921583
+project-id = 945470

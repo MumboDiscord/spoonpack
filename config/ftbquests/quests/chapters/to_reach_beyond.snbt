@@ -1,0 +1,680 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "to_reach_beyond"
+	group: "05C274008F241AAA"
+	icon: "avaritia:infinity_catalyst"
+	id: "26D2671701668983"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["652CA912545038EA"]
+			description: ["Slowly accumulate Neutron Dust to be compacted into ingots."]
+			id: "5B3149FF5299AC95"
+			min_width: 250
+			rewards: [{
+				id: "62A997D99A98B7C2"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Make a Neutron Collector"
+			tasks: [{
+				id: "328A8A25CB1E0FCB"
+				item: "avaritia:neutron_collector"
+				type: "item"
+			}]
+			title: "Neutron Collector"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5B3149FF5299AC95"
+				"7C5037E77DCB81FD"
+				"4C18B00A7D5D8B8D"
+				"55E2E06D5826210D"
+				"4F8DBB8920CA830A"
+				"0A97FCF9630F3127"
+				"777D9965AC75834B"
+				"05638C50EB80EADB"
+				"4A1B97E12AF60744"
+				"682DEB976BCF6898"
+				"1D163D314AB30265"
+				"4A69CB9130840A6E"
+				"22A5AC8F1420EA5E"
+				"6F639D396EF78018"
+				"185FDC44C71375BE"
+				"380A1D208B3AF269"
+				"3FF9F491B5FE58CC"
+				"4BECFB91254043E7"
+				"464487C8FD964A87"
+				"578716DB0D1E39FD"
+			]
+			description: ["The &bInfinity Catalyst&r holds within it the energy of a thousand stars."]
+			id: "726232DDB1A6AD5A"
+			rewards: [{
+				id: "7114FB31F32AA8CF"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Make an Infinity Catalyst"
+			tasks: [{
+				id: "6C87CE34EA8FCECB"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["726232DDB1A6AD5A"]
+			description: ["The &bInfinity Ingot&r contains the power of infinity, but can be more easily shaped."]
+			id: "4AF929F772D28E2C"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Make an Infinity Ingot"
+			tasks: [{
+				id: "0F400A016174EC39"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4AF929F772D28E2C"]
+			id: "6305B598AD7D3A09"
+			shape: "hexagon"
+			subtitle: "/Kill materialized."
+			tasks: [{
+				id: "79D6758D7F780492"
+				item: "avaritia:infinity_sword"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: ["That is a REALLY big crafting table!"]
+			icon: "avaritia:extreme_crafting_table"
+			id: "652CA912545038EA"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Make an Extreme Crafting Table"
+			tasks: [{
+				id: "23DABC6015F3EFB3"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			title: "Avaritia - Start"
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5B3149FF5299AC95"]
+			description: [
+				"Oh man are you in for a treat."
+				""
+				"I never said the finale was going to be easy!"
+			]
+			id: "1E36F0451F6506A3"
+			tasks: [{
+				id: "75C26138431902AC"
+				item: "avaritia:neutron_compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "6F639D396EF78018"
+			tasks: [{
+				id: "031BE8ABA7ED5D42"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:bronze"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "777D9965AC75834B"
+			tasks: [{
+				id: "4050173615E77228"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:coal"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "4A69CB9130840A6E"
+			tasks: [{
+				id: "7264235B150A5B4F"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:electrum"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "578716DB0D1E39FD"
+			tasks: [{
+				id: "75B2DB7AE63F9CC1"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:lapis_lazuli"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "3FF9F491B5FE58CC"
+			tasks: [{
+				id: "4685EC0E3B6B9C65"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:steel"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "55E2E06D5826210D"
+			tasks: [{
+				id: "2D2ACDEF2960C60D"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:nickel"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "4C18B00A7D5D8B8D"
+			tasks: [{
+				id: "49A5D709147254A6"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:diamond"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "380A1D208B3AF269"
+			tasks: [{
+				id: "5870A9475A947830"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:copper"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "05638C50EB80EADB"
+			tasks: [{
+				id: "015F346E4586E4EE"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:redstone"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "7C5037E77DCB81FD"
+			tasks: [{
+				id: "14235E324FF2675D"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:tin"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "682DEB976BCF6898"
+			tasks: [{
+				id: "45258B61BE3EB2CB"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:emerald"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "1D163D314AB30265"
+			tasks: [{
+				id: "10019126B1383351"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:invar"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "4A1B97E12AF60744"
+			tasks: [{
+				id: "69EAB5BD594AD1A7"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:aluminum"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "4F8DBB8920CA830A"
+			tasks: [{
+				id: "30BA6F61EB152BFE"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:iron"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "4BECFB91254043E7"
+			tasks: [{
+				id: "717E0DE32333ABB7"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:silver"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "464487C8FD964A87"
+			tasks: [{
+				id: "5EBA0F3ADEF66F82"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:platinum"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "185FDC44C71375BE"
+			tasks: [{
+				id: "64DD5ED3B7CB55E2"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:gold"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "22A5AC8F1420EA5E"
+			tasks: [{
+				id: "6970B73747CA31D1"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:glowstone"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E36F0451F6506A3"]
+			id: "0A97FCF9630F3127"
+			tasks: [{
+				id: "33D9217C7AF9B1C8"
+				item: {
+					Count: 1b
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:lead"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4AF929F772D28E2C"]
+			id: "5659BBFB0DC66864"
+			tasks: [{
+				id: "3B6865E93CC0D2E0"
+				item: {
+					Count: 1b
+					id: "avaritia:infinity_pickaxe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4AF929F772D28E2C"]
+			id: "48A212DF613A7BA4"
+			tasks: [{
+				id: "63C5201A0DBA4F04"
+				item: {
+					Count: 1b
+					id: "avaritia:infinity_shovel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4AF929F772D28E2C"]
+			id: "04293F124134253F"
+			tasks: [{
+				id: "4F0169AD05979918"
+				item: "avaritia:infinity_axe"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5B3149FF5299AC95"]
+			id: "6655B023D949204D"
+			tasks: [{
+				id: "022F7793CC1F6EEB"
+				item: "avaritia:dense_neutron_collector"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6655B023D949204D"]
+			id: "1D18D8A818BB2C76"
+			tasks: [{
+				id: "70C58BA3E50CF189"
+				item: "avaritia:denser_neutron_collector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1D18D8A818BB2C76"]
+			id: "08A7B02BF3CCE4DB"
+			tasks: [{
+				id: "13E72CD95F41711E"
+				item: "avaritia:densest_neutron_collector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B3149FF5299AC95"]
+			id: "27BE0527D6B0C981"
+			tasks: [{
+				id: "08B6C4C7CF953EC7"
+				item: "avaritia:neutron_pile"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27BE0527D6B0C981"]
+			id: "0D3CBC1F2FE58783"
+			tasks: [{
+				id: "1286942AA92D7910"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D3CBC1F2FE58783"]
+			id: "298C73A75D4CCB94"
+			tasks: [{
+				id: "4C686BA9DE3B9EBC"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AF929F772D28E2C"]
+			id: "56391FACC9D7A1DA"
+			tasks: [{
+				id: "2F438DDF1AD2676D"
+				item: "avaritia:infinity_hoe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2EFDE58E0A12D061"
+				"04293F124134253F"
+				"5659BBFB0DC66864"
+				"4F848697416266E2"
+				"48A212DF613A7BA4"
+				"4B5B44BA21F4CC21"
+				"6B2D0CC1B4B16818"
+				"56391FACC9D7A1DA"
+				"6305B598AD7D3A09"
+				"15B71A7C5ADDA44D"
+				"2084F3F6FB861C5B"
+				"22FB35B0FEF1343D"
+				"1AC60211DE7427FC"
+				"6614EE2378B8AFB9"
+				"2B51AC12041E3F89"
+				"02FE661031A105D8"
+				"752CDE464613A1ED"
+				"05C274008F241AAA"
+			]
+			description: [
+				"&4Congratulations!&r"
+				""
+				"If you COMPLETED this quest, then that means that you have reached the finale and completed the pack."
+				""
+				"Please, screenshot this, share it around, and if you show Kirby, I'll give you a Spooncraft Spoon!"
+				"(Also please show me your setup for getting the materials)"
+				""
+				"I know it's not the most major gift, but maybe there will be a larger gift in the future?"
+				""
+				"&bTHANK YOU FOR PLAYING!&r"
+			]
+			id: "0C4774BE1FD58E18"
+			size: 4.0d
+			subtitle: "Nice work."
+			tasks: [{
+				id: "75D1803999A0E6E8"
+				title: "Victory!"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4AF929F772D28E2C"]
+			id: "6B2D0CC1B4B16818"
+			tasks: [{
+				id: "2CE2D691ADEBEC56"
+				item: "avaritia:infinity_chestplate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4AF929F772D28E2C"]
+			id: "2EFDE58E0A12D061"
+			tasks: [{
+				id: "58B264F32A4C6927"
+				item: "avaritia:infinity_pants"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4AF929F772D28E2C"]
+			id: "15B71A7C5ADDA44D"
+			tasks: [{
+				id: "0CF2CDC4BC820071"
+				item: "avaritia:infinity_boots"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4AF929F772D28E2C"]
+			id: "4B5B44BA21F4CC21"
+			tasks: [{
+				id: "5933DEAFC0E60469"
+				item: "avaritia:infinity_helmet"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4AF929F772D28E2C"]
+			id: "4F848697416266E2"
+			tasks: [{
+				id: "08CD83CEAE495EEC"
+				item: {
+					Count: 1b
+					id: "avaritia:infinity_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+	]
+	subtitle: ["The Overworld"]
+	title: "Avaritia"
+}

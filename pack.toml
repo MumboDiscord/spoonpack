@@ -1,0 +1,13 @@
+name = "Spoonpack"
+author = "_JoeGaming, kirbyfofa768"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "5f1defb8fa25b04793943537efce4ca79646fb168286500168519b1c4e5d0589"
+
+[versions]
+forge = "47.2.0"
+minecraft = "1.20.1"

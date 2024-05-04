@@ -1,0 +1,1822 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mainquestline_part_1"
+	group: "2084F3F6FB861C5B"
+	icon: "minecraft:crafting_table"
+	id: "732824E03978A934"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "waystones:item/warp_stone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.97d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.01d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.4d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "integrateddynamics:aspect/read/list/inventory/itemstacks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "farmersdelight:item/hamburger"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "sophisticatedbackpacks:item/advanced_magnet_upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/torchflower"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/torchflower"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/torchflower"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "apotheosis:items/gem_dust"
+			rotation: 0.0d
+			width: 0.75d
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "ironfurnaces:block/iron_furnace_front_on_smoke"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/torchflower"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 8.5d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome to Spoonpack, but again!"]
+			id: "5CF320E9C4C1B1E1"
+			rewards: [
+				{
+					count: 8
+					id: "64451D3624C2085E"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "1902B7E64709494A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "5C8109AE8C1BAD29"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: "minecraft:oak_log"
+				id: "285A53DB9D54595D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Gather Wood"
+				type: "item"
+			}]
+			title: "Welcome!"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CF320E9C4C1B1E1"]
+			description: ["Storage"]
+			hide_dependency_lines: true
+			id: "0752E680F9DE4039"
+			rewards: [{
+				id: "7D6D1B0CB60B90B8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "1AFA45D4934626C6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Chest"
+				type: "item"
+			}]
+			title: "Storage"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CF320E9C4C1B1E1"]
+			description: ["The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. The famine. "]
+			hide_dependency_lines: true
+			id: "681E89DB12A21A09"
+			rewards: [{
+				id: "688CFEFDE7244290"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				icon: "minecraft:apple"
+				id: "3D4DC59D56174F6D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops"
+					}
+				}
+				title: "Food"
+				type: "item"
+			}]
+			title: "Food Farms"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0752E680F9DE4039"]
+			description: ["Long term solution."]
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "5EE945A1185E8336"
+			optional: true
+			rewards: [
+				{
+					id: "2F26494429A38E0C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3650502ECF1ACC45"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "636C3AC34EFAEF52"
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0D103010FFD01F8E"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			title: "Storage Drawers"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0752E680F9DE4039"]
+			description: ["Chest on the go!"]
+			id: "00BD90363CA2D893"
+			optional: true
+			rewards: [
+				{
+					id: "2A88291C5526A88C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32F7C36CDCDE8984"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D1E29C1E57C456E"
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "63C2682DA7129BE1"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Backpack"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0752E680F9DE4039"]
+			description: ["This is a chest!"]
+			id: "7A0602AC493D8356"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "69A5DCFFD9CE2C9A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+							}
+						]
+					}
+				}
+				title: "Chest Upgrades"
+				type: "item"
+			}]
+			title: "Chest"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CF320E9C4C1B1E1"]
+			description: ["Crafting table - you know it, you love it."]
+			id: "282CE3A088AE5CFB"
+			rewards: [{
+				id: "7A8E604C248E9E0B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "746C44D800F4E4FB"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Crafting"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["282CE3A088AE5CFB"]
+			description: ["Pickaxe"]
+			id: "7975C7145572C438"
+			rewards: [{
+				id: "1551FD138B9B3813"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5CA7453233441165"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Time to mine!"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7975C7145572C438"]
+			description: ["Rock and Stone, brotha!"]
+			icon: "minecraft:furnace"
+			id: "7D38BC3DB3406F51"
+			rewards: [{
+				id: "36A9FD7873103E63"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					count: 16L
+					icon: "minecraft:cobblestone"
+					id: "10DFD79E9CE6DB61"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:cobblestone"
+						}
+					}
+					title: "Any Cobblestone"
+					type: "item"
+				}
+				{
+					id: "397B170E3C7FA203"
+					item: "minecraft:furnace"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Stone"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["051E0C85E7B71CE0"]
+			description: [
+				"A furnace... But it's iron!"
+				""
+				"I hate waiting!"
+			]
+			id: "2AEBE3F28996A6ED"
+			rewards: [{
+				id: "668CE42B421B64D8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7C88F80D05E62AC7"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ironfurnaces:copper_furnace"
+							}
+							{
+								Count: 1b
+								id: "ironfurnaces:iron_furnace"
+							}
+							{
+								Count: 1b
+								id: "ironfurnaces:upgrade_copper"
+							}
+							{
+								Count: 1b
+								id: "ironfurnaces:upgrade_iron"
+							}
+						]
+					}
+				}
+				title: "Furnace Upgrades"
+				type: "item"
+			}]
+			title: "Iron Furnace"
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7D38BC3DB3406F51"]
+			description: ["Smelting!"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/furnace_front_on"
+				}
+			}
+			id: "18F88DE24EFBA7A7"
+			rewards: [{
+				id: "19BC35D05B4369D3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "73F491DD08E2D06C"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			title: "Furnace"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D38BC3DB3406F51"]
+			description: ["You are going to need a lot of metal!"]
+			id: "051E0C85E7B71CE0"
+			rewards: [{
+				id: "3A97D5B2AE8AEF50"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "38BA6B3FF1EC9185"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "2E116AC5F25650BE"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "Acquire Hardware"
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["051E0C85E7B71CE0"]
+			description: ["Also check out Paxels!"]
+			id: "698A959C9E449592"
+			rewards: [
+				{
+					id: "77D1205EEAD47367"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40D1A85DBA8BF5DC"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "03005DEF00AB48F3"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Iron Pickaxe"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["698A959C9E449592"]
+			description: ["Hello everybody my name is Mumbo and welcome back to Spoonpack."]
+			hide: false
+			hide_dependency_lines: false
+			id: "4DE1158931F84F22"
+			rewards: [
+				{
+					id: "2C46B4017AC5F3AE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18A505CF00AA26D6"
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 4L
+				id: "73F9C130378195B9"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "Redstone"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["698A959C9E449592"]
+			description: ["Diamonds!!"]
+			id: "76406EFFF8CBA6B4"
+			rewards: [
+				{
+					id: "5631B3158B9642FB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "197F4FAA40D360D9"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "17B9A643AFD7EB39"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Diamonds!"
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["76406EFFF8CBA6B4"]
+			description: ["We must go deeper!"]
+			id: "0F3D51FFD2FE8DCB"
+			min_width: 300
+			rewards: [
+				{
+					id: "196D91EFBD3EBC2F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55D84560988395F7"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					count: 10L
+					id: "6206DC761D4CDDFE"
+					item: { Count: 10b, id: "minecraft:obsidian" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+					id: "6FF63A559722919C"
+					title: "Enter The Nether"
+					type: "advancement"
+				}
+			]
+			title: "The Nether"
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4DE1158931F84F22"]
+			description: ["Machine requires Power."]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "industrialforegoing:block/generators/generator_side_magmatic"
+				}
+			}
+			id: "2D879A34A5788CCC"
+			min_width: 400
+			rewards: [
+				{
+					id: "2C9E98C328385885"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E36C0A090FD73E0"
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7C383FCA495D1CAB"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ironfurnaces:augment_generator"
+							}
+							{
+								Count: 1b
+								id: "rftoolspower:coalgenerator"
+							}
+							{
+								Count: 1b
+								id: "powah:furnator_starter"
+							}
+						]
+					}
+				}
+				title: "Starter Power Options"
+				type: "item"
+			}]
+			title: "Power - Start"
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E9229FBA875C0BE"]
+			description: [
+				"Teleport between any waystone you have activated on your journey!"
+				""
+				"*cross dimension takes exp!"
+			]
+			id: "79494986A7957292"
+			rewards: [
+				{
+					id: "1422464FC1F1F0DC"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "2E9E9049F5B2CACE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				icon: "waystones:waystone"
+				id: "7B33B2A7945A2C9D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "waystones:waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:mossy_waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:sandy_waystone"
+							}
+						]
+					}
+				}
+				title: "Waystones"
+				type: "item"
+			}]
+			title: "Waystones"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2D879A34A5788CCC"]
+			description: [
+				"Cheap, wireless power transfer."
+				""
+				"Remember your password!"
+			]
+			id: "7D12B3ECC3E3AC7B"
+			min_width: 350
+			rewards: [
+				{
+					id: "5EAF138F285E39E3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48CD5113435D21D5"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "74AD72BE7CA6FEA0"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "fluxnetworks:flux_plug"
+							}
+							{
+								Count: 1b
+								id: "fluxnetworks:flux_point"
+							}
+							{
+								Count: 1b
+								id: "powah:player_transmitter_starter"
+							}
+							{
+								Count: 1b
+								id: "fluxnetworks:flux_controller"
+							}
+						]
+					}
+				}
+				title: "Wireless Power Options"
+				type: "item"
+			}]
+			title: "Flux Network"
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2D879A34A5788CCC"]
+			description: ["Gotta store that power!"]
+			id: "672134A1A620EEAB"
+			rewards: [
+				{
+					id: "18EEB670636B9671"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2061A5D3182DE1CE"
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3C95552D03C16F3D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "rftoolspower:dimensionalcell_simple"
+							}
+							{
+								Count: 1b
+								id: "enderio:basic_capacitor_bank"
+							}
+							{
+								Count: 1b
+								id: "rftoolspower:cell1"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cell_starter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_energy_cube"
+							}
+						]
+					}
+				}
+				title: "Power Storage Options"
+				type: "item"
+			}]
+			title: "Power Storage"
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E9229FBA875C0BE"]
+			description: ["Encounter mini bosses around the world."]
+			id: "780DE5A24ED53F60"
+			rewards: [
+				{
+					id: "27BF0B80ADD17159"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35C3A016DF3C9389"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				advancement: "apotheosis:affix/root"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "apotheosis:items/mythic_material"
+					}
+				}
+				id: "1FBEC3A36CAAA8EA"
+				title: "Find an &dApotheosis&r Enchanted Item"
+				type: "advancement"
+			}]
+			title: "Apotheosis"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7975C7145572C438"]
+			description: ["What a wonderful world!"]
+			icon: "minecraft:saddle"
+			id: "4E9229FBA875C0BE"
+			rewards: [{
+				id: "7C5F26262FE9B032"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "03BCD8CA1FF84420"
+				title: "Time To Adventure!"
+				type: "checkmark"
+			}]
+			title: "Explore"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["681E89DB12A21A09"]
+			description: ["I LOVE TRADING!!!"]
+			id: "28E60192912BEBAD"
+			rewards: [
+				{
+					id: "6502F8AB0033CC29"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CCFFBC576CC4D3E"
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F265D92FDA70DFA"
+				item: "easy_villagers:villager"
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Villagers"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2D879A34A5788CCC"]
+			description: ["Enderio my beloved."]
+			id: "4869C413646CC4CC"
+			rewards: [
+				{
+					id: "583B550C6F1EDACC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "140701E3E5D975AF"
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1960B985B54B9FBD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "enderio:energy_conduit"
+							}
+							{
+								Count: 1b
+								id: "pipez:energy_pipe"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cable_starter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_universal_cable"
+							}
+						]
+					}
+				}
+				title: "Basic Power Cables"
+				type: "item"
+			}]
+			title: "Cables"
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0F3D51FFD2FE8DCB"]
+			description: ["Bring your beds."]
+			hide: false
+			icon: "minecraft:end_portal_frame"
+			id: "61C49BC2B384FB80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E92832FCABBF64B"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 10L
+					id: "2BF525CB7074AF2A"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:story/follow_ender_eye"
+					criterion: ""
+					icon: "minecraft:end_portal_frame"
+					id: "2014E320BFF51D62"
+					title: "&dFind The Stronghold&r"
+					type: "advancement"
+				}
+			]
+			title: "The End"
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["61C49BC2B384FB80"]
+			description: ["How to KILL your dragon."]
+			hide: false
+			icon: "minecraft:dragon_head"
+			id: "6EE5BE5693E8ACE4"
+			rewards: [
+				{
+					id: "56A277BC5DE71CA9"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08DE61A4378573A1"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "minecraft:story/enter_the_end"
+					criterion: ""
+					id: "4E47E0E49057195E"
+					title: "&dTo The End&r"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:end/root"
+					criterion: ""
+					icon: "minecraft:dragon_head"
+					id: "2F96969419E7C767"
+					title: "&5The End&r"
+					type: "advancement"
+				}
+				{
+					id: "3EC9DF0765694A7E"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+			]
+			title: "Ender Dragon"
+			x: 19.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["76406EFFF8CBA6B4"]
+			description: ["Do you like my sword sword sword my diamond sword sword?"]
+			id: "2EC9668ED4EA47CB"
+			rewards: [
+				{
+					id: "22A34BE659C7BC6D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B5B59A44117F6E4"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3209E46C9B05C163"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:diamond_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&bDiamond&r &aItems&r"
+				type: "item"
+			}]
+			title: "Diamond Tools"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F3D51FFD2FE8DCB"]
+			description: ["Upgrades, people, upgrades!"]
+			id: "1E1EB7DC19DDCFB7"
+			rewards: [
+				{
+					id: "59B9C8F5AB1E300A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4338BE89D5F22F9B"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "363806ECF99CBE88"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Netherite Template"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2EC9668ED4EA47CB"
+				"1E1EB7DC19DDCFB7"
+				"5E799B92358A8732"
+			]
+			description: ["Knockback resistance.."]
+			id: "0F026D5A17CCCF51"
+			rewards: [
+				{
+					id: "58E67AE81201E3EA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29C76CDC2D4EE385"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0AFA64F1025569A2"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:netherite_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&dNetherite&r &aItems&r"
+				type: "item"
+			}]
+			title: "&dNetherite&r &aTools and Armor&r"
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["051E0C85E7B71CE0"]
+			description: ["I genuinely forgot this was in the game."]
+			hide: false
+			hide_dependency_lines: true
+			id: "3ADCAD65EA6900BA"
+			rewards: [
+				{
+					id: "52FD7FF469E1E202"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E0E59B27422F16E"
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1993EF1788F53759"
+				item: {
+					Count: 1b
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Archeology"
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0F3D51FFD2FE8DCB"]
+			description: ["TREASUR!!!"]
+			id: "5E799B92358A8732"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AA95C89CCD4545E"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "43762D6B09E48291"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "4346DAC18183627E"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			title: "Netherite"
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5E799B92358A8732"]
+			description: ["Sneaky sneaky..."]
+			id: "6EDAB29FBD3C60A3"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:block/sculk_shrieker_can_summon_inner_top"
+					}
+				}
+				id: "1D48B6FC70F5C745"
+				title: "&6Visit The&r &dDeep Dark&r!"
+				type: "biome"
+			}]
+			title: "Deep Dark"
+			x: 16.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["698A959C9E449592"]
+			description: [
+				"Create your own custom gear with Silent Gear!"
+				""
+				"I unfortunately do not know much about it, so there will not be a quest line!"
+			]
+			icon: "silentgear:guide_book"
+			id: "4E178CCAC7F85F54"
+			rewards: [
+				{
+					id: "1AED613A621652B7"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FA13C02E33371F1"
+					table_id: 7025454341029952768L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "0CE818D1D451E7C4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_boots"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_chestplate"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_helmet"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_sword"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_axe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_shovel"
+							}
+						]
+					}
+				}
+				title: "&6Allthemodium Tools and Armor&r"
+				type: "item"
+			}]
+			title: "Silent Gear"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3ADCAD65EA6900BA"]
+			description: ["You like my drip?"]
+			id: "7741905EA8380B25"
+			rewards: [
+				{
+					id: "78458A2A58EEEAAF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B9B88680EA3D6F4"
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "1693B07767081FB3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:trim_templates"
+					}
+				}
+				title: "Trim Templates"
+				type: "item"
+			}]
+			title: "Trims"
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3ADCAD65EA6900BA"]
+			description: ["I also forgot these were in the game!"]
+			id: "72989212DD45DC10"
+			rewards: [
+				{
+					id: "2071EEC4C3305EC6"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A8D767945327347"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "heart"
+			subtitle: "{atm9.quest.chapter1.subt.sniffer}"
+			tasks: [{
+				id: "070A5475DB3F6E6C"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			title: "Sniffer Egg"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6EDAB29FBD3C60A3"]
+			description: ["RUNRUNRUNRUNRUNRUN"]
+			hide: false
+			id: "6D09511D64DDC282"
+			rewards: [
+				{
+					id: "7949A3E032C67EB5"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31A8DCBFC72CA085"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/warden.png"
+					}
+				}
+				id: "6CAD0E4CF3577BEB"
+				title: "&5Kill The Warden&r"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill Warden!"
+			x: 19.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4A4C71C43519D5FE"]
+			description: ["That's right. China has successfully killed the Wither, meaning they have the resources necessary to construct a BEACON!"]
+			hide: false
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:wither"
+					}
+				}
+			}
+			id: "69A517AB8A801939"
+			rewards: [
+				{
+					id: "1C1320B4266DCB86"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06D66F00886663C4"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither"
+						}
+					}
+				}
+				id: "76C41881A02F2098"
+				title: "&6Kill The&r &5Wither&r"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill Wither"
+			x: 19.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2AEBE3F28996A6ED"]
+			description: ["So you don't have to break your furnace."]
+			id: "7EC01E7DB045DB05"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "535A39E4C6E7F4AD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3BEA6C6A41D5ABEA"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ironfurnaces:augment_blasting"
+							}
+							{
+								Count: 1b
+								id: "ironfurnaces:augment_smoking"
+							}
+							{
+								Count: 1b
+								id: "ironfurnaces:augment_factory"
+							}
+							{
+								Count: 1b
+								id: "ironfurnaces:augment_speed"
+							}
+							{
+								Count: 1b
+								id: "ironfurnaces:augment_fuel"
+							}
+						]
+					}
+				}
+				title: "Furnace &aAugments&r"
+				type: "item"
+			}]
+			title: "Furnace Upgrade"
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0F3D51FFD2FE8DCB"]
+			description: ["I love GAMBLING!"]
+			hide: false
+			icon: "minecraft:wither_skeleton_skull"
+			id: "4A4C71C43519D5FE"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 3L
+					id: "178C4C3288503A66"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "14C0350713AC4214"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			title: "Wither Skeleton"
+			x: 16.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4E9229FBA875C0BE"]
+			description: ["Find a trinket out in the wild!"]
+			icon: "lootr:lootr_chest"
+			id: "5B95C5B5B3A9CB2E"
+			rewards: [{
+				id: "29ECF9DB6CC61534"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7DD48BFCA238430A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "artifacts:artifacts"
+					}
+				}
+				title: "Artifacts"
+				type: "item"
+			}]
+			title: "Artifacts"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["76406EFFF8CBA6B4"]
+			description: [
+				"8 Flowers, Water in the middle!"
+				""
+				"Sacrifice a diamond!"
+			]
+			id: "23CA641A3D3BE22F"
+			min_width: 300
+			rewards: [{
+				id: "61AB892E58B3E5AE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "082FD4018EA92767"
+				title: "The &dTwilight Forest&r"
+				type: "dimension"
+			}]
+			title: "Twilight Forest"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76406EFFF8CBA6B4"]
+			description: [
+				"The Mega Torch is an item that can stop mob spawns in a 64 block radius in a circular formation from the torch."
+				""
+				"This means you can use mood lighting! Or be lazy and not light up your builds..."
+			]
+			id: "2026A2C4FA5B618C"
+			rewards: [{
+				id: "5179D49A42D4C9D8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "I love mood lighting."
+			tasks: [{
+				id: "48D05AE006967156"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F915814B6721A3F"]
+			description: [
+				"Ever wanted a car? Look no further! With the Automobile Assembler, you can create your own cars!"
+				""
+				"Depending on what frames/wheels you use, you can go up 1 block tall hills, to not stop moving!"
+			]
+			id: "37DC043745D37B13"
+			rewards: [{
+				id: "12508E21825E6BC9"
+				item: "automobility:crowbar"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "You just got Coconut Malled"
+			tasks: [{
+				id: "2B3019084FB09B73"
+				item: "automobility:automobile_assembler"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["051E0C85E7B71CE0"]
+			description: [
+				"Using the Auto Mechanic Table you can create the parts needed for a car!"
+				""
+				"You will need an Automobile Assembler to assemble the car."
+			]
+			id: "6F915814B6721A3F"
+			rewards: [{
+				id: "1DCC787335B052B2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1D03B7997BF4F64C"
+				item: "automobility:auto_mechanic_table"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+	]
+	title: "The Start"
+}

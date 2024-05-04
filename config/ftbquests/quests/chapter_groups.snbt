@@ -1,0 +1,13 @@
+{
+	chapter_groups: [
+		{ id: "2084F3F6FB861C5B", title: "&aChapter 1 - Starting" }
+		{ id: "22FB35B0FEF1343D", title: "&2Chapter 2 - Exploring" }
+		{ id: "1AC60211DE7427FC", title: "&6Chapter 3 - Storage" }
+		{ id: "6614EE2378B8AFB9", title: "&eChapter 4 - Sustain" }
+		{ id: "28E76B69F9802BEF", title: "&3Chapter 5 - Create" }
+		{ id: "2B51AC12041E3F89", title: "&9Chapter 6 - Technology" }
+		{ id: "02FE661031A105D8", title: "&5Chapter 7 - Magic" }
+		{ id: "752CDE464613A1ED", title: "&cChapter 8 - Dimensions" }
+		{ id: "05C274008F241AAA", title: "&4Chapter 9 - Finale" }
+	]
+}

@@ -1,0 +1,201 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "minecraft:wooden_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5B00676D79306EA2"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to Spoonpack!"
+				""
+				"Please contact staff on discord if you run into any issues."
+			]
+			icon: "silentgear:spoon_upgrade"
+			id: "3BC0A50886A3222B"
+			rewards: [{
+				id: "4956CB79E44FB523"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "5A1784C5676CDC62"
+				title: "Welcome to Spoonpack!"
+				type: "checkmark"
+			}]
+			title: "Welcome to Spoonpack!"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"This pack has quests."
+				""
+				"You can complete them as a team by going to the FTB Teams menu when you open up your inventory in the top left,"
+				"or you can do them solo."
+				""
+				"You will get rewards based on the quest you have completed!"
+				""
+				"You do not have to follow the quests, they just give a general guideline of progression. "
+				""
+				"Play as you want to!"
+			]
+			icon: "ftbquests:book"
+			id: "3708A4780ACEB34E"
+			min_width: 250
+			rewards: [{
+				id: "4A56DF6E0204666C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "52BB142F044075B4"
+				title: "Quests"
+				type: "checkmark"
+			}]
+			title: "Guide to Quests"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"/sethome and /home - set your home to your current location, and do /home to teleport there."
+				""
+				"/tpa - send a tpa request to someone, and after a few seconds you will be teleported to them if they accept."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/settings.png"
+				}
+			}
+			id: "7658C1C663394E85"
+			min_width: 350
+			rewards: [{
+				id: "5007C73E170C4FF6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "10A16F89D4AD238D"
+				title: "Useful Commands"
+				type: "checkmark"
+			}]
+			title: "Commands"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Claims work differently here than they do on Spooncraft."
+				"&4Please don't steal stuff still!"
+				""
+				"You can claim chunks and even chunk load them using the FTB Claims menu in the top left when you open your inventory."
+				""
+				"If you are in an FTB Team, your teammates will be able to interact and claim chunks too - no /trust necessary."
+				""
+				"You also can let other people not on the team interact with them by changing the claim type."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/waypoint_home.png"
+				}
+			}
+			id: "0C93D7A607AB8B83"
+			rewards: [{
+				id: "1B044C35466AFAEF"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "103C42C743E2A2DB"
+				title: "Claiming Chunks"
+				type: "checkmark"
+			}]
+			title: "Claims Guide"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"You can create a team by going to the three people icon in the top left of your inventory."
+				""
+				"You can follow the steps there! (Create team - invite people)."
+				""
+				"You can invite/decline people from the team by doing /ftbteams invite (username) in chat."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "5AC1BE754210429E"
+			rewards: [{
+				id: "101D2FD24AB845AC"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4F13A02FB0055A62"
+				title: "Creating a Team"
+				type: "checkmark"
+			}]
+			title: "Teams Guide"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Accidentally choose the wrong origin?"
+				""
+				"Look no further! You can reset it here."
+				""
+				"For a price."
+			]
+			id: "1AC89B42A6599CC5"
+			rewards: [{
+				id: "5D3C66FF1798B03E"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 2.0d
+			subtitle: "Whoops."
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "1A8AC11595AAE13E"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Origin Reset"
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Welcome!"
+}
