@@ -146,7 +146,7 @@ hash = "b9365f43b04d38c85179a2d661ea2342883432ad40ba09daf159da6cb564ca4b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bounty_board.snbt"
-hash = "fb916cfdfd9903f27b347b5c88bf2771895e24c428ac6c325e7a03111f7d0161"
+hash = "8c069d382156027286e3222fd95eb52b72bbaff80e56badcf7f46d8009bdbd19"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
@@ -301,20 +301,12 @@ file = "config/ftbquests/quests/reward_tables/perfect_gem_bag.snbt"
 hash = "e9f49ef848faa6700943c47e19b079825e269132cf259e41a06206fd29bc6caa"
 
 [[files]]
-file = "config/ftbquests/quests/reward_tables/powah_orb.snbt"
-hash = "2efff5fc66c78db866ed3054e5175d7235feb67afdf7f3828325e17ba19d456c"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/powah_spirited.snbt"
-hash = "6b0081aac4223a4f41fe6f59df5429510f2d9d4c0802d2220984f7f1f15757a0"
-
-[[files]]
 file = "config/ftbquests/quests/reward_tables/random_tier_1_glyph.snbt"
 hash = "3f8435e5cc76a19f64b38aeacf1895279b8511e2c174e48ddc575afaea038097"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/rare.snbt"
-hash = "0ac749b908b1ffadc686ad512ea191adc7a6ee22a668361fc31d4ea39a44711e"
+hash = "5f87237d4dcabd99d5e0b08071e9f619580bc3743e05dfb3bc95a736cfff525a"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/rare_gem_bag.snbt"
@@ -325,28 +317,12 @@ file = "config/ftbquests/quests/reward_tables/rare_mana_loot.snbt"
 hash = "1fc593e633f5a645382dea7bd43170894bfe6178ca47003536066a25200e97a6"
 
 [[files]]
-file = "config/ftbquests/quests/reward_tables/refined_storage_base_materials.snbt"
-hash = "18265aab5ba0d22282781c722ebb6b8ff59388fa2c360180a089a4df22578708"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/refined_storage_parts.snbt"
-hash = "fc90bfa654d780cf749dec7d358c364fd9c3d1554f7d5efc7cef81cc6c23fe38"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/rs_advanced_parts.snbt"
-hash = "40d710e9f7007d06532c593f19900a4c931c9056414d0bbba4c9ff6bd44ca235"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/rs_random_storage_parts.snbt"
-hash = "5b579c79f6c3c95c134b51f56297f5a3f422aca07c55d012af6c307843d9689b"
-
-[[files]]
 file = "config/ftbquests/quests/reward_tables/twilight_forest_loot_bag.snbt"
 hash = "f7466c9b11e3f86ff42f0ea84471e908fe2916d7a184a55c816809522fa4d0b1"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/uncommon.snbt"
-hash = "cd7dc71a8cf4a52e0a3e68951ec0acce3bc8bfee22b08b06db8c755bba88c2c9"
+hash = "91f0a11febd5ade0322529ede7c5dbef663006d8e0bc83f67ae8d5bbf205e48e"
 
 [[files]]
 file = "config/industrialforegoing/machine-agriculture-husbandry.toml"

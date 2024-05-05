@@ -36,7 +36,6 @@
 			}
 			weight: 3.0f
 		}
-		{ item: "productivebees:upgrade_productivity", random_bonus: 2, weight: 2.0f }
 		{ item: "minecraft:dragon_egg", weight: 2.0f }
 		{ item: "minecraft:dragon_head" }
 		{ item: "artifacts:vampiric_glove", weight: 2.0f }
@@ -46,7 +45,6 @@
 		{ item: "artifacts:crystal_heart", weight: 2.0f }
 		{ item: "ironfurnaces:diamond_furnace", weight: 3.0f }
 		{ item: "ironfurnaces:emerald_furnace" }
-		{ item: "alltheores:enderium_ingot", random_bonus: 3, weight: 5.0f }
 		{ count: 8, item: "fluxnetworks:flux_dust", random_bonus: 16, weight: 10.0f }
 		{ item: "fluxnetworks:flux_block", random_bonus: 3, weight: 3.0f }
 		{ item: "fluxnetworks:flux_point", random_bonus: 2, weight: 5.0f }
@@ -66,26 +64,8 @@
 		}
 		{ item: "minecraft:beacon", weight: 2.0f }
 		{ item: "minecraft:nether_star", random_bonus: 2, weight: 2.0f }
-		{ item: "ars_nouveau:source_gem_block", random_bonus: 2, weight: 3.0f }
-		{
-			item: {
-				Count: 1b
-				id: "mininggadgets:mininggadget_simple"
-				tag: { }
-			}
-			weight: 2.0f
-		}
-		{
-			item: {
-				Count: 1b
-				id: "mininggadgets:mininggadget_fancy"
-				tag: { }
-			}
-		}
 		{ count: 2, item: "apotheosis:rare_material", random_bonus: 4, weight: 5.0f }
 		{ item: "sophisticatedbackpacks:stack_upgrade_tier_4" }
-		{ item: "functionalstorage:netherite_upgrade" }
-		{ item: "pipez:ultimate_upgrade" }
 		{ item: "apotheosis:mythic_material", random_bonus: 2, weight: 2.0f }
 		{ count: 4, item: "apotheosis:gem_dust", random_bonus: 4, weight: 5.0f }
 		{

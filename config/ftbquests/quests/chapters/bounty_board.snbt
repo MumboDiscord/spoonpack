@@ -411,7 +411,7 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "72DC79DE53E77CAD"
+					id: "5EF6B3ED6B5A9D34"
 					table_id: 4196188979167302596L
 					type: "random"
 				}
@@ -439,7 +439,7 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "12C0D9B030D64A4B"
+					id: "0AB11BAEA92548E8"
 					table_id: 4196188979167302596L
 					type: "random"
 				}
@@ -467,7 +467,7 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4BB86DB9D806D3E4"
+					id: "12E34EB65DDE6C03"
 					table_id: 4196188979167302596L
 					type: "random"
 				}
@@ -523,7 +523,8 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "66C49399D8CCD721"
+					id: "1D5E6EA1CE7CDCD3"
+					table_id: 4196188979167302596L
 					type: "random"
 				}
 			]
@@ -1224,15 +1225,10 @@
 					xp: 1000
 				}
 				{
-					id: "190AE302BBF17638"
-					item: "allthemodium:allthemodium_ingot"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
-					id: "77D3E366578B4BF0"
-					table_id: 4196188979167302596L
-					type: "random"
+					id: "2A80CBAD3A8C97C8"
+					table_id: 7025454341029952768L
+					type: "loot"
 				}
 			]
 			size: 1.5d
