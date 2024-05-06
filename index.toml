@@ -9,6 +9,10 @@ file = "config/ae2/common.json"
 hash = "7f7c44687bf1be375c62f3144f80cc5ef4fbf7185859a0698998889ff9c5cfa3"
 
 [[files]]
+file = "config/chancecubes/global_rewards.json"
+hash = "d7877cbc3726f225745e734ec6bc718bcd69e24dfe9888470f33d05dab692082"
+
+[[files]]
 file = "config/drippyloadingscreen/options.txt"
 hash = "d2e8118c658c67d510c7b02995ca751d63d2776880f9fa8455dddd4950b46d62"
 
@@ -218,7 +222,7 @@ hash = "c7a45616f37ecc8b4545fd575a1d0bc82e95978ebc06dbd0f9746de58adf3707"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "0b89ad8dd51e0d4409070c2f2b0f3052ca55392ce5ebebd00d82f3ad876e7f15"
+hash = "bfaa83965786728552391e27dfd51490e694108b46083a0202c8d8341413afd3"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -373,6 +377,10 @@ file = "configureddefaults/config/do_a_barrel_roll-client.json"
 hash = "58f0ea406511b0d907227fe455b5d9201c37e11077e6c6366ee16f00aae9f3be"
 
 [[files]]
+file = "configureddefaults/config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "b5cd136a559edf7cda34ad8549695004c6602d09ef70b18ec0839ab9c147a7f2"
+
+[[files]]
 file = "configureddefaults/config/xaerominimap.txt"
 hash = "0c39c09057dc013d796eeb66b1ed4a11fac074713d5fa92be069441cf7e987e2"
 
@@ -501,6 +509,10 @@ metafile = true
 file = "mods/alternate-current.pw.toml"
 hash = "2362e168d550f0a3a3bea1715a495d7c54fe6e9f159b948981eae15c53df597c"
 metafile = true
+
+[[files]]
+file = "mods/altorigingui-1.0.0.jar"
+hash = "55943048cb52a01fab52dd243f1a5a79d95d9330e451aa74e58da6db288e6045"
 
 [[files]]
 file = "mods/ancient-reforging.pw.toml"
@@ -1533,16 +1545,6 @@ hash = "13af80b2b1274ebea8a8afdd31340b98280ae70ae7a64061162d0b07e75e0929"
 metafile = true
 
 [[files]]
-file = "mods/waystones-teleport-pets.pw.toml"
-hash = "d48337e86e6d00870daece97b2c5492aec2e4147841f1ddda663e70e91fb0a0b"
-metafile = true
-
-[[files]]
-file = "mods/waystones.pw.toml"
-hash = "5f7c7bb29895141d57fdc32823a169e3a851176760f8ceed6c00bc109b4288df"
-metafile = true
-
-[[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "a6c6913cce90a477582c632ec246f90c917fbf97da4129e78bf408b060e01f89"
 metafile = true
@@ -1550,11 +1552,6 @@ metafile = true
 [[files]]
 file = "mods/wireless-chargers.pw.toml"
 hash = "fde222e39ac1b3156ece37e5c49e69be224ca5a765c34694f211a89e5c7721ab"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-minimap-world-map-waystones-compability.pw.toml"
-hash = "8d36634238df44d710194c2e7bd99a58387e15a0a1a0d25edd1edc1829a00650"
 metafile = true
 
 [[files]]

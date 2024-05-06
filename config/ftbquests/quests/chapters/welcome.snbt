@@ -168,14 +168,14 @@
 			y: -0.5d
 		}
 		{
-			can_repeat: true
 			description: [
-				"Accidentally choose the wrong origin?"
+				"Accidentally choose the wrong origin? Don't worry, you get two free origin reset orbs."
 				""
 				"Look no further! You can reset it here."
 				""
-				"For a price."
+				"This is your first free origin reset."
 			]
+			icon: "origins:orb_of_origin"
 			id: "1AC89B42A6599CC5"
 			rewards: [{
 				id: "5D3C66FF1798B03E"
@@ -186,15 +186,69 @@
 			size: 2.0d
 			subtitle: "Whoops."
 			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "1A8AC11595AAE13E"
-				item: "minecraft:diamond"
-				type: "item"
+				id: "31D95127C798A857"
+				type: "checkmark"
 			}]
 			title: "Origin Reset"
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["1AC89B42A6599CC5"]
+			description: [
+				"Accidentally choose the wrong origin? Don't worry, you get two free origin reset orbs."
+				""
+				"Look no further! You can reset it here."
+				""
+				"This is your second/last free origin reset."
+			]
+			icon: "origins:orb_of_origin"
+			id: "2A9EA396E8B6AA07"
+			rewards: [{
+				id: "2E356CF940A32DE3"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 2.0d
+			subtitle: "Whoops."
+			tasks: [{
+				id: "1203C02A8D928B5E"
+				type: "checkmark"
+			}]
+			title: "Origin Reset"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A9EA396E8B6AA07"]
+			description: [
+				"Accidentally choose the wrong origin?"
+				""
+				"Look no further! You can reset it here."
+				""
+				"For a price. A really expensive price."
+				""
+				"This is your last chance to change your origin so choose carefully!"
+			]
+			icon: "origins:orb_of_origin"
+			id: "634A6F4DF58F1DA8"
+			rewards: [{
+				id: "482A47CABCD86C1C"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 2.0d
+			subtitle: "Whoops."
+			tasks: [{
+				id: "071E2102F91CFFD9"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Origin Reset"
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "Welcome!"
