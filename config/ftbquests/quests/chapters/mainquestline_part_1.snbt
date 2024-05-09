@@ -10,18 +10,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "waystones:item/warp_stone"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.97d
-			y: 9.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.01d
 			hover: [ ]
 			image: "ftbquests:textures/shapes/square/outline.png"
@@ -112,8 +100,8 @@
 			order: -1
 			rotation: 45.0d
 			width: 1.0d
-			x: 1.0d
-			y: 9.0d
+			x: -0.5d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -720,57 +708,6 @@
 			title: "Power - Start"
 			x: 16.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["4E9229FBA875C0BE"]
-			description: [
-				"Teleport between any waystone you have activated on your journey!"
-				""
-				"*cross dimension takes exp!"
-			]
-			id: "79494986A7957292"
-			rewards: [
-				{
-					id: "1422464FC1F1F0DC"
-					item: "waystones:waystone"
-					type: "item"
-				}
-				{
-					id: "2E9E9049F5B2CACE"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				icon: "waystones:waystone"
-				id: "7B33B2A7945A2C9D"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "waystones:waystone"
-							}
-							{
-								Count: 1b
-								id: "waystones:mossy_waystone"
-							}
-							{
-								Count: 1b
-								id: "waystones:sandy_waystone"
-							}
-						]
-					}
-				}
-				title: "Waystones"
-				type: "item"
-			}]
-			title: "Waystones"
-			x: 0.0d
-			y: 8.0d
 		}
 		{
 			dependencies: ["2D879A34A5788CCC"]

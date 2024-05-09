@@ -73,37 +73,6 @@
 		}
 		{
 			description: [
-				"/sethome and /home - set your home to your current location, and do /home to teleport there."
-				""
-				"/tpa - send a tpa request to someone, and after a few seconds you will be teleported to them if they accept."
-			]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbteams:textures/settings.png"
-				}
-			}
-			id: "7658C1C663394E85"
-			min_width: 350
-			rewards: [{
-				id: "5007C73E170C4FF6"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "10A16F89D4AD238D"
-				title: "Useful Commands"
-				type: "checkmark"
-			}]
-			title: "Commands"
-			x: -2.5d
-			y: -0.5d
-		}
-		{
-			description: [
 				"Claims work differently here than they do on Spooncraft."
 				"&4Please don't steal stuff still!"
 				""
@@ -133,8 +102,8 @@
 				type: "checkmark"
 			}]
 			title: "Claims Guide"
-			x: 4.5d
-			y: -0.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -164,8 +133,8 @@
 				type: "checkmark"
 			}]
 			title: "Teams Guide"
-			x: -4.5d
-			y: -0.5d
+			x: -2.25d
+			y: -0.4821428571428541d
 		}
 		{
 			description: [
@@ -200,7 +169,7 @@
 				""
 				"Look no further! You can reset it here."
 				""
-				"This is your second/last free origin reset."
+				"This is your second and last free origin reset."
 			]
 			icon: "origins:orb_of_origin"
 			id: "2A9EA396E8B6AA07"
@@ -219,36 +188,6 @@
 			title: "Origin Reset"
 			x: 0.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["2A9EA396E8B6AA07"]
-			description: [
-				"Accidentally choose the wrong origin?"
-				""
-				"Look no further! You can reset it here."
-				""
-				"For a price. A really expensive price."
-				""
-				"This is your last chance to change your origin so choose carefully!"
-			]
-			icon: "origins:orb_of_origin"
-			id: "634A6F4DF58F1DA8"
-			rewards: [{
-				id: "482A47CABCD86C1C"
-				item: "origins:orb_of_origin"
-				type: "item"
-			}]
-			shape: "heart"
-			size: 2.0d
-			subtitle: "Whoops."
-			tasks: [{
-				id: "071E2102F91CFFD9"
-				item: "minecraft:netherite_ingot"
-				type: "item"
-			}]
-			title: "Origin Reset"
-			x: 0.0d
-			y: 6.0d
 		}
 	]
 	title: "Welcome!"

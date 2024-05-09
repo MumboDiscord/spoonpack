@@ -317,7 +317,13 @@
 		}
 		{
 			dependencies: ["4BF0BB763BFFACF0"]
-			description: ["{atm9.quest.ae2.desc.cables}"]
+			description: [
+				"To connect the vast majority of your ME network together, you will need some cable. &eME Glass Cable&r is the first and most basic kind of cable, and you'll be making this all throughout as the first step towards crafting the other kinds of cable."
+				""
+				"There was a whole lot of &8mumbo jumbo&r (get it?) talking about cables and channels, &4but channels are lame, so we removed them&r. This means that any cable (covered glass fluix dense) will carry the &dinfinite&r amount of channels. You're welcome."
+				""
+				"All cables can also be crafted with dye to color them. Uncolored ('Fluix') cables can connect to any other color of cable, but otherwise differently-colored cables will never connect to one another. However, I think that because channels are removed this restriction is lifted, so 1) don't quote me on that, and 2) feel free to make a rainbow line of cables."
+			]
 			id: "5C22E3103544B120"
 			min_width: 300
 			rewards: [
@@ -584,7 +590,13 @@
 				"22C4318523A43B49"
 				"78311531069807DE"
 			]
-			description: ["{atm9.quest.ae2.desc.ME_controller}"]
+			description: [
+				"The last piece of the puzzle for any large ME network is the &bME Controller&f. "
+				""
+				"An ME Network may only contain one multiblock controller at any given time. Attempting to connect more than one controller on separate parts of the network will cause a conflict, shutting down the whole network."
+				""
+				"This is what provides you with the channels to hook everything together. Again, &bthere is no limit&r on how many machines you can link."
+			]
 			id: "2F16B6A173525277"
 			rewards: [
 				{
@@ -2050,7 +2062,11 @@
 		}
 		{
 			dependencies: ["5C22E3103544B120"]
-			description: ["{atm9.quest.ae2.desc.channels}"]
+			description: [
+				"&eWe removed channels. Consider this tab a free reward. &r"
+				""
+				"But basically, any device that more or less handles ME data directly (items stored within the network) and carries out some form of I/O will take up a channel. Usually components that are only concerned with the internal power storage of the network, like Energy Cells and Inscribers, do not take up channels."
+			]
 			id: "78311531069807DE"
 			rewards: [{
 				id: "0608B89F87FECB34"

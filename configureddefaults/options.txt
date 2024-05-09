@@ -1,3 +1,5 @@
 version:3465
 onboardAccessibility:false
 key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.ftbchunks.map:key.keyboard.unknown
+key_justzoom.keybinds.keybind.zoom:key.keyboard.c

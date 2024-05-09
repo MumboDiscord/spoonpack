@@ -126,7 +126,7 @@ hash = "c8d2df8842b720aa15ce0d6341d4ec5b59a2eb797a36e82c40ef22eadd54481f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
-hash = "b49bfb8d54dc16f0212718dde3ca0abfed2cc1801eb7440147d27f670dae0a8d"
+hash = "c0606395bbefa816e0da455c8624564551507f4ec4028f1263ee9752265ee493"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/basic_power.snbt"
@@ -182,7 +182,7 @@ hash = "d8e85ba57b3a42263c14f8e60481e1fef5e7ddf7d079e93eb22cbd083877e20c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mainquestline_part_1.snbt"
-hash = "9fed832ba79e0a0d54a4ac17067d65b1286eedf864f160b1b13800d9bd886116"
+hash = "49b3807bc25d0f3adc3230474d8d5c5d2d073b02996622b4fc693ac41c8e0b20"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
@@ -202,7 +202,7 @@ hash = "dc0fe1628de00eb6e9395eb5eda04d9a22c86ea00ec80d2f971f069af1307423"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
-hash = "d93cc96d2b8a7b2f89be875ce0f2e623a831f2d09cc3dd6b8a2602a0663541ff"
+hash = "9096aa0dab265ea381d6b44f9cbb4264f9ea051d5f7e1c5b542dc18bad802300"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/thermal_expansion.snbt"
@@ -218,11 +218,11 @@ hash = "ae078817f0c8430d81b08bffd7ae13b00063dfea654abe5b8998050ec3995169"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
-hash = "c7a45616f37ecc8b4545fd575a1d0bc82e95978ebc06dbd0f9746de58adf3707"
+hash = "41f519e7596a75e27f3c2946e7eab99a0246ebe38b18f993d7f134cf6ca226d5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "bfaa83965786728552391e27dfd51490e694108b46083a0202c8d8341413afd3"
+hash = "0df0f7a08058216adb4516f5992400252ecf4fd3b103f88bac6fd061af4c62b6"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -361,6 +361,10 @@ file = "config/quark-common.toml"
 hash = "184bd8c8359795d234ae9f503f55c097ea68bfe78be5c3a4a060a4022f514bef"
 
 [[files]]
+file = "config/silentgear-common.toml"
+hash = "31054baeb07e5fe7795cb54a1410840fb1bfb62c4c91fdc677c0acaa2c32b6eb"
+
+[[files]]
 file = "config/supplementaries-client.toml"
 hash = "371a5b7e472913d5c278944f260d9afacd291855d9b9025e33d601fa2f37daee"
 
@@ -386,7 +390,7 @@ hash = "0c39c09057dc013d796eeb66b1ed4a11fac074713d5fa92be069441cf7e987e2"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "3a9866a2429b5bbf1435e047bd5c9953806ffcfe44ffdd4bac6892afeb18d4f3"
+hash = "e354dff8264de822257e6aaa83c55432364693c74a27b164c4e5d017064fd2bb"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
@@ -560,11 +564,6 @@ hash = "8a27a482bf7dbf9b8a96fe9a3e8bf8e08ca1d376c6cf13bccf49f0d5191d56fa"
 metafile = true
 
 [[files]]
-file = "mods/argonauts.pw.toml"
-hash = "2ee8c7ca5102799792e9231bb1f11d3d4deb3fa8dc9cd68720a8878e92937e27"
-metafile = true
-
-[[files]]
 file = "mods/artifacts.pw.toml"
 hash = "13740a40359ea16adb88bd46f3506ff1fbeb426b099e3ffbe2ad57b8b340691b"
 metafile = true
@@ -627,11 +626,6 @@ metafile = true
 [[files]]
 file = "mods/botarium.pw.toml"
 hash = "098dce9973ba88740458098f574f77cd8611b8aa9584916746ca135ef533309a"
-metafile = true
-
-[[files]]
-file = "mods/cadmus.pw.toml"
-hash = "b84628727ed06fe253934876a58eb3714f0624f6dc5fc882270bd36b296b29a8"
 metafile = true
 
 [[files]]
@@ -862,6 +856,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "49b79603523451f9beb1030d89d9e332b15d8e902ecc3f33901c1b25b8d2e8dd"
+metafile = true
+
+[[files]]
+file = "mods/epherolib.pw.toml"
+hash = "fadaae47087ff0af2442bed6c9978eaa14f2926990738d81b5ce382d4c4a86fa"
 metafile = true
 
 [[files]]
@@ -1410,6 +1409,11 @@ hash = "f65634348b0cf61fb2a9b99417f6fc28256ab0a37238baefdb26446a89a3bab0"
 metafile = true
 
 [[files]]
+file = "mods/shoppy.pw.toml"
+hash = "3e8983a16f2969a7c4305d105a7bf0f5fa4a6ad5414a95fffd825335b2dbb453"
+metafile = true
+
+[[files]]
 file = "mods/silent-gear.pw.toml"
 hash = "4da28b4b3c88e4d84c485da2ca76c41df512282fb3d4a5d0425fa9446a48f0e3"
 metafile = true
@@ -1422,6 +1426,11 @@ metafile = true
 [[files]]
 file = "mods/silents-gems.pw.toml"
 hash = "8faa2fbbc50e6d5ef4e556b2059407b992e04f36267e0010102e57dd69b98dca"
+metafile = true
+
+[[files]]
+file = "mods/simple-planes.pw.toml"
+hash = "2b5abf66011d73a561205f40915b0497372078a33c6a69233b3d6823f0ad86d1"
 metafile = true
 
 [[files]]
