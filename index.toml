@@ -49,10 +49,6 @@ file = "config/fancymenu/legacy_checklist.txt"
 hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
-file = "config/fancymenu/options.txt"
-hash = "cf17dccc90ba56f3738cad2e8670253d06c0b5d6ca5d643e82431e29dc166407"
-
-[[files]]
 file = "config/fancymenu/panoramas/main/panorama/panorama_0.png"
 hash = "00baffa9847b81a425961154babe069b5bcfb40449537e6c229f6a26c7316585"
 
@@ -381,6 +377,10 @@ file = "configureddefaults/config/do_a_barrel_roll-client.json"
 hash = "58f0ea406511b0d907227fe455b5d9201c37e11077e6c6366ee16f00aae9f3be"
 
 [[files]]
+file = "configureddefaults/config/fancymenu/options.txt"
+hash = "cf17dccc90ba56f3738cad2e8670253d06c0b5d6ca5d643e82431e29dc166407"
+
+[[files]]
 file = "configureddefaults/config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "b5cd136a559edf7cda34ad8549695004c6602d09ef70b18ec0839ab9c147a7f2"
 
@@ -605,7 +605,7 @@ metafile = true
 
 [[files]]
 file = "mods/blur-forge.pw.toml"
-hash = "b452fc877ad16f35cf274f3945ec7eb46d645be3d76bd506858b263ce09332ce"
+hash = "6d120e37e9bce55fdd8b209265863dfcc6b64ac9cdf4e3afaa7dc9be08db2978"
 metafile = true
 
 [[files]]
@@ -1095,7 +1095,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris-flywheel-compat.pw.toml"
-hash = "919d453aa857e8f2a816d84917fe7107de2a070066b702bd34a54681fe17e9a5"
+hash = "a644344ab63fd39ebd8160a8d90e337f87a1e43b50fb80fa6437c0c2c2004719"
 metafile = true
 
 [[files]]
@@ -1270,12 +1270,12 @@ metafile = true
 
 [[files]]
 file = "mods/noisium.pw.toml"
-hash = "c93415111f987afcdfc932d834ded1d3e4bcf1c1e007621c768218e6d937c75d"
+hash = "6acafcd08aefc502b788f386ecb436e782466fe524acc34447a3aaccacbd0754"
 metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "6bb8b0848783cdf7108e499107a4991c2cee2a9240b963d427fa62b0f2a5820e"
+hash = "0663919544b1f185be64b69269f5e914d2fae910fb8ee16d4cd9549d809e71cd"
 metafile = true
 
 [[files]]
@@ -1675,7 +1675,7 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-menu-tweaks.pw.toml"
-hash = "4e34eaf92b3e06d2ad4dfb6b7630bc583a0c113498088efb9c8b446562d709e9"
+hash = "9aa05adbab4c4aa796627738b5453de789b53b4c9c5919509618905f43ff826f"
 metafile = true
 
 [[files]]
