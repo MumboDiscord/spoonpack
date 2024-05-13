@@ -9,10 +9,6 @@ file = "config/ae2/common.json"
 hash = "7f7c44687bf1be375c62f3144f80cc5ef4fbf7185859a0698998889ff9c5cfa3"
 
 [[files]]
-file = "config/chancecubes/global_rewards.json"
-hash = "d7877cbc3726f225745e734ec6bc718bcd69e24dfe9888470f33d05dab692082"
-
-[[files]]
 file = "config/drippyloadingscreen/options.txt"
 hash = "d2e8118c658c67d510c7b02995ca751d63d2776880f9fa8455dddd4950b46d62"
 
@@ -95,6 +91,10 @@ hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
 [[files]]
 file = "config/fancymenu/user_variables.db"
 hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
+file = "config/farmingforblockheads/MarketRegistry.json"
+hash = "8fa6883962769d2f558b855dbc943bee661f6c13b805c4dd88859d62a8c8cc4f"
 
 [[files]]
 file = "config/fml.toml"
@@ -584,6 +584,11 @@ hash = "5e3ff30d77ab34aba80c887c01838d408a20e4730726c98feffbf15c568a7b5b"
 metafile = true
 
 [[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "55c3c0b90712f84b1936ef69bbc1937bedd2e499b65003e0f22f00ad744a885b"
+metafile = true
+
+[[files]]
 file = "mods/badpackets.pw.toml"
 hash = "64bf8b278979f6e2aa9dc0fb5d2168212bc9337e41fb9a9f7e114fe91695194a"
 metafile = true
@@ -649,11 +654,6 @@ hash = "2ecf09fed9ee5d417e3c748b9274989b37bd5555ddfea9626e53628b60285189"
 metafile = true
 
 [[files]]
-file = "mods/chance-cubes.pw.toml"
-hash = "6bceebf72b5c38c350d3a9548240e2689df2e21ef3dc33df8764f8eb1fbbe7e6"
-metafile = true
-
-[[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "9f5fd7599367191ec28b58b6a6956341f41bbeca15b0b3a7d641f37b1b884d0d"
 metafile = true
@@ -714,6 +714,11 @@ hash = "9f2bb57e05bad305f03c25c275c6d11e952835a41b2da68dba10a0bd1f3f6261"
 metafile = true
 
 [[files]]
+file = "mods/cosmetic-armor-reworked.pw.toml"
+hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
+metafile = true
+
+[[files]]
 file = "mods/create-additional-recipes.pw.toml"
 hash = "ee71267e855aad0b2cc34816318a2757488c75adc7a79ba57556834cd051e46d"
 metafile = true
@@ -771,6 +776,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "f4d41750be3841d73640ba8f4da3ec8e2e8baef4afef7ecb55dd4afd10588d34"
+metafile = true
+
+[[files]]
+file = "mods/cut-through.pw.toml"
+hash = "512199afb263274b758378f2117d8f9abac194cdef1fb79d7cb83e95199259d0"
 metafile = true
 
 [[files]]
@@ -871,6 +881,11 @@ metafile = true
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
 hash = "73c0af900cea34a2b583b31b3189e11a2c85a294a4bc230ce0e3a7ff21da424e"
+metafile = true
+
+[[files]]
+file = "mods/extra-keybinds.pw.toml"
+hash = "147dbf32df880dfd60ec8a5f25db30651cd103034c293480bad1471c0038af2e"
 metafile = true
 
 [[files]]
@@ -1079,6 +1094,11 @@ hash = "b6c3ce52599c7dc852d81a973f11992988ad99446452bc210743f186579104d7"
 metafile = true
 
 [[files]]
+file = "mods/iris-flywheel-compat.pw.toml"
+hash = "919d453aa857e8f2a816d84917fe7107de2a070066b702bd34a54681fe17e9a5"
+metafile = true
+
+[[files]]
 file = "mods/iron-furnaces.pw.toml"
 hash = "417b7db4ff7ba993a2c96086b718bd48cc38ef8fcd4e04150252239b3be721e1"
 metafile = true
@@ -1249,6 +1269,11 @@ hash = "1d602996f39fb6103a5b968f50ec06800db7125b145570474c9c10e6dcd0c68e"
 metafile = true
 
 [[files]]
+file = "mods/noisium.pw.toml"
+hash = "c93415111f987afcdfc932d834ded1d3e4bcf1c1e007621c768218e6d937c75d"
+metafile = true
+
+[[files]]
 file = "mods/oculus.pw.toml"
 hash = "6bb8b0848783cdf7108e499107a4991c2cee2a9240b963d427fa62b0f2a5820e"
 metafile = true
@@ -1295,7 +1320,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "b7051b4c2310e1566a96e72b525469b460ed1132e393f3865b798bc3d80386f0"
+hash = "d216f67d3c4a28449084f6f2a79034a7dc62f861fe9fb48583234c21bbc47e68"
 metafile = true
 
 [[files]]

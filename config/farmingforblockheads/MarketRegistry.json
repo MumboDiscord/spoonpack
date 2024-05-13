@@ -1,0 +1,28 @@
+{
+    "groupOverrides": {
+        "Farmers Delight Mushroom Colonies": {
+            "enabled": true
+        },
+        "Farmers Delight Soil": {
+            "enabled": true
+        },
+        "Farmers Delight Wild Crops": {
+            "enabled": true
+        },
+        "Quark Mushroom": {
+            "enabled": true
+        },
+        "Quark Soil": {
+            "enabled": true
+        },
+        "Twilight Forest Berries": {
+            "enabled": true
+        },
+        "Twilight Forest Saplings": {
+            "enabled": true
+        },
+        "Twilight Forest Soil": {
+            "enabled": true
+        }
+    }
+}
