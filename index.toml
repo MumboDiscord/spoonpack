@@ -413,6 +413,10 @@ file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
+file = "kubejs/assets/origins-plus-plus/lang/en_us.json"
+hash = "918c9e597d986ebc9b75e10ef9a8d686a89950b0d262ee4093094e274997814a"
+
+[[files]]
 file = "kubejs/client_scripts/example.js"
 hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
@@ -463,6 +467,10 @@ hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
 [[files]]
 file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+
+[[files]]
+file = "kubejs/startup_scripts/remove_flying_potion.js"
+hash = "358de3e7d1b609a695b694c9c5a24148bf7bf4a8a23c9afa565a9fa530b92586"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -1244,6 +1252,11 @@ hash = "7eba2a4194baaa285446eae38fd9f0f303e90c5cdd7c884ac60aa0b51594d308"
 metafile = true
 
 [[files]]
+file = "mods/morejs.pw.toml"
+hash = "19e2f5faa9bcdc20a377198e232f2566d87b7bf7bf82c0764add649a3741a38f"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "fac74cc46a4424c4a235a6efbb7e8b3b62c200ad95564e230857eec26b33f216"
 metafile = true
@@ -1281,11 +1294,6 @@ metafile = true
 [[files]]
 file = "mods/origins-forge.pw.toml"
 hash = "cb91a483997feae40c3edfc9d5a06dc44fdf2f562a62f065834e9e1a6a1c7f8f"
-metafile = true
-
-[[files]]
-file = "mods/origins-plus-plus.pw.toml"
-hash = "fa48ca5b38790724ee6826cac5dd41aa38256a26c47ab4941939a40c2f7cf288"
 metafile = true
 
 [[files]]
