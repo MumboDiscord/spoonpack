@@ -417,6 +417,22 @@ file = "kubejs/assets/origins-plus-plus/lang/en_us.json"
 hash = "918c9e597d986ebc9b75e10ef9a8d686a89950b0d262ee4093094e274997814a"
 
 [[files]]
+file = "kubejs/assets/spooncraft_origins/textures/gui/resource_bar.png"
+hash = "caad645c092f0dce604620ff2c8cc806cd9d994687325f69c6f5e8f52e7d938c"
+
+[[files]]
+file = "kubejs/assets/spooncraft_origins/textures/gui/resource_bar_points.png"
+hash = "024c7a41722adb40349d7b14c9e9ec81a8ce0a9c887f84caf86413cfd3ef6dff"
+
+[[files]]
+file = "kubejs/assets/spooncraft_origins/textures/moth_wings.png"
+hash = "9333030be0c7165c71d2566dce0ae04b5c1ec9e3078469b90127e3db986c2c5d"
+
+[[files]]
+file = "kubejs/assets/zipntoit/lang/en_us.json"
+hash = "1ea4cac4d9859d0b0c99d87443410de2e9580b91aa47f2882d16045c84750dfc"
+
+[[files]]
 file = "kubejs/client_scripts/example.js"
 hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
