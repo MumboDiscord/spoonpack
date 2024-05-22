@@ -442,7 +442,7 @@ hash = "c04d279dd8bde1d897ab5f4cc22e5123097b6f628d466438596053922aa1f340"
 
 [[files]]
 file = "kubejs/config/common.properties"
-hash = "6883c748a8ce25bf5fa8bec5d4633bb184b8ed2659ac4f9eb2caea431d52e3d4"
+hash = "00a6367071746da1b0fd442c7de9c9c0cfd94bb6292b2161c5ceb1900d647faf"
 
 [[files]]
 file = "kubejs/data/industrialforegoing/recipes/laser_drill_ore/aluminum.json"
@@ -553,6 +553,11 @@ hash = "becc9f331f62d5c31b0e9abce703297f8a51d8a4baf4f2466552555bc5b15dd1"
 metafile = true
 
 [[files]]
+file = "mods/apotheotic-additions.pw.toml"
+hash = "2f21553dd8b6bccc45c50f852139dc5522b198db71795012b2b88b8e9b80b48f"
+metafile = true
+
+[[files]]
 file = "mods/apothic-attributes.pw.toml"
 hash = "c04fd90b29363ba69b62d7aa71a15657343d6d0ecdd96b6f0ae2e912d70315ec"
 metafile = true
@@ -619,7 +624,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "d02b891b8549c4bacda20466c941001255efd7f184f5ff6bd662ef90c9f6de95"
+hash = "1447df8a4bd1fd2cce2ae71f900f3d1f1626baa2fe37c877cef19549a4101c36"
 metafile = true
 
 [[files]]
@@ -708,6 +713,11 @@ hash = "cdc8386b87895775e3f4cc5624c43efd6a3610516864a7f507adb70c2c3a12f1"
 metafile = true
 
 [[files]]
+file = "mods/colorful-hearts.pw.toml"
+hash = "992b9e8e84f8694ccb2c514f37b237e259e9044718f0400a7900318c5ab6bcb6"
+metafile = true
+
+[[files]]
 file = "mods/common-capabilities.pw.toml"
 hash = "9c5d5bcc84c2d398fc242d9ec672a70942b085535e112d9f601397620d842578"
 metafile = true
@@ -730,6 +740,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
+metafile = true
+
+[[files]]
+file = "mods/cooking-for-blockheads.pw.toml"
+hash = "3f18b81aad7b751a884687617b59e24b0655b8ba45a5889c857af4d43980c241"
 metafile = true
 
 [[files]]
@@ -1318,6 +1333,11 @@ hash = "cb91a483997feae40c3edfc9d5a06dc44fdf2f562a62f065834e9e1a6a1c7f8f"
 metafile = true
 
 [[files]]
+file = "mods/overloaded-armor-bar.pw.toml"
+hash = "65ba55b95c910d696029b5e1c735241062ea80d5bad76e22e9e79697279cde30"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3a7eaa64434e7449e5fe6bd089bc784499432dae7d6ca07174b55b10a3b32ec8"
 metafile = true
@@ -1330,6 +1350,11 @@ metafile = true
 [[files]]
 file = "mods/pig-pen-cipher.pw.toml"
 hash = "f896fefa7466845181da9db06ba4a89865f54b406ff3b1fb65773c66614b6f1b"
+metafile = true
+
+[[files]]
+file = "mods/pipez.pw.toml"
+hash = "1ac2f1dd12beba63da748429f8f7478f193ea693c994c0b2582bccc88b803f7f"
 metafile = true
 
 [[files]]
