@@ -663,6 +663,11 @@ hash = "098dce9973ba88740458098f574f77cd8611b8aa9584916746ca135ef533309a"
 metafile = true
 
 [[files]]
+file = "mods/building-gadgets.pw.toml"
+hash = "8461b7344559646b5051a6d812e2cd4d43e62c8c817d17f0b2552f65306f43d4"
+metafile = true
+
+[[files]]
 file = "mods/caelus.pw.toml"
 hash = "5155ae1ca2c606df2001422a48cd167d2449160d5fe12a302753dee69af7fe92"
 metafile = true
@@ -779,7 +784,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "bf6a000f37ef4d43d718552853c22dbbe76a423cbf82234d2b55ae71ae4fead2"
+hash = "80061143ef327fe4611e10a6c2bce219be4fb893260106a321c6628e151a57ec"
 metafile = true
 
 [[files]]
@@ -1644,12 +1649,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "0a4855063cd7fe757788aa3bc2ef8cc99d4c7908ddfb642e05838b937878e78b"
+hash = "d7c59d391361b917e0ba2f0a59a641591686c6995b4b9e6f5ac0fc7e6b95e4f4"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "232027893fcd366f56d465821d883830477641b8cef5871add2bdc998ae2503c"
+hash = "e9d60c8dd6456b72a8c7b10b052c8945d8904edf070b35d2ca67b9d83d1b2158"
 metafile = true
 
 [[files]]
