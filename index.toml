@@ -9,6 +9,10 @@ file = "config/ae2/common.json"
 hash = "7f7c44687bf1be375c62f3144f80cc5ef4fbf7185859a0698998889ff9c5cfa3"
 
 [[files]]
+file = "config/alexsmobs.toml"
+hash = "76f66e26ab5ba70856b15e9d64f9806bfc97ad6d315342a52937b3e4a8ed9759"
+
+[[files]]
 file = "config/drippyloadingscreen/options.txt"
 hash = "d2e8118c658c67d510c7b02995ca751d63d2776880f9fa8455dddd4950b46d62"
 
@@ -122,7 +126,7 @@ hash = "c8d2df8842b720aa15ce0d6341d4ec5b59a2eb797a36e82c40ef22eadd54481f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
-hash = "c0606395bbefa816e0da455c8624564551507f4ec4028f1263ee9752265ee493"
+hash = "731877c4c31b9a7f8d70771623b6f1838d5f4ba4b13ae32f45985ca95b6bfd33"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/basic_power.snbt"
@@ -178,7 +182,7 @@ hash = "d8e85ba57b3a42263c14f8e60481e1fef5e7ddf7d079e93eb22cbd083877e20c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mainquestline_part_1.snbt"
-hash = "49b3807bc25d0f3adc3230474d8d5c5d2d073b02996622b4fc693ac41c8e0b20"
+hash = "4fbdef4bfabc795d9d49107b066c51bd04c98e34f408ccde2efeb47a5fb951be"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"

@@ -1338,79 +1338,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["698A959C9E449592"]
-			description: [
-				"Create your own custom gear with Silent Gear!"
-				""
-				"I unfortunately do not know much about it, so there will not be a quest line!"
-			]
-			icon: "silentgear:guide_book"
-			id: "4E178CCAC7F85F54"
-			rewards: [
-				{
-					id: "1AED613A621652B7"
-					type: "xp"
-					xp: 500
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5FA13C02E33371F1"
-					table_id: 7025454341029952768L
-					type: "loot"
-				}
-			]
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				id: "0CE818D1D451E7C4"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "allthemodium:allthemodium_boots"
-							}
-							{
-								Count: 1b
-								id: "allthemodium:allthemodium_leggings"
-							}
-							{
-								Count: 1b
-								id: "allthemodium:allthemodium_chestplate"
-							}
-							{
-								Count: 1b
-								id: "allthemodium:allthemodium_helmet"
-							}
-							{
-								Count: 1b
-								id: "allthemodium:allthemodium_sword"
-							}
-							{
-								Count: 1b
-								id: "allthemodium:allthemodium_pickaxe"
-							}
-							{
-								Count: 1b
-								id: "allthemodium:allthemodium_axe"
-							}
-							{
-								Count: 1b
-								id: "allthemodium:allthemodium_shovel"
-							}
-						]
-					}
-				}
-				title: "&6Allthemodium Tools and Armor&r"
-				type: "item"
-			}]
-			title: "Silent Gear"
-			x: 7.5d
-			y: 6.0d
-		}
-		{
 			dependencies: ["3ADCAD65EA6900BA"]
 			description: ["You like my drip?"]
 			id: "7741905EA8380B25"
@@ -1755,5 +1682,5 @@
 			y: 7.5d
 		}
 	]
-	title: "The Start"
+	title: "&7The Start"
 }
